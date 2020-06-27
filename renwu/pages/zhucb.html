@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div{
+			position: fixed;
+			top: 100px;
+			left: 500px;
+			height: 200px;
+			width: 400px;
+			border:2px solid green;
+			background-color: bule;
+		}
+		table,th,td{border: 30px solid silver;}
+		table{caption-side: bottom;}
+		table{border-collapse: collapse;}
+		table{border-spacing: 10px}
+
+		span{
+		color: red
+	} 	
+	</style>
+	<script type="text/javascript">
+	window.onload = function(){
+		var oBtn = document.getElementById("btn");
+		oBtn.onclick = function()
+		{
+			alert("1")
+			window.location = "file:///F:/%E8%83%A1%E8%B1%AA/pages/%E7%BD%91%E9%A1%B5.html"
+			
+		}
+	}
+	
+	</script>
+</head>
+<body>
+<div style="margin-top:-100px;margin-left: -400px">
+<img src="../images/beijing.jpg">
+</div>
+<div>
+	<tbody>
+	<form method="post">
+<tr>
+	<p><td>昵称<span>*</span><input type="text" name="名字"></p>
+	<td>    </td>
+	<tr>
+	<td>
+	<p>身份:<span>*</span><select>
+	<option>请选择</option>
+	<option>学生</option>
+	<option>教师</option>
+	<option>其他人士</option>
+	</select></p>
+	</td>
+	</tr>
+<tr>
+	<p><td>邮箱<span>*</span><input type="text" name="邮箱"></p>
+	</td>
+</tr>
+<tr>
+	<p><td>学号或工号<span>*</span><input type="text" name="学号或工号"></p>
+</td>
+</tr>
+<tr>
+	<p><td>密码<span>*</span><input type="password" name="mima"></p>
+</td>
+</tr>
+		<p>
+		<input id="btn" type="button" value="注册" name="按钮" style="color: red">
+		<input type="reset" value="取消" name="按钮">
+		</p>
+	</div>
+	</form>
+	<div style="margin-top: 400px;">
+	<a href="https://www.yngsxy.net/4/"><img src="../images/xx.jpg">更多资讯，请了解学校官网</a>
+	</div>
+</body>
+</html>
